@@ -1,0 +1,20 @@
+{
+  "author": "Nodejitsu <info@nodejitsu.com>",
+  "name": "blacksmith-blog",
+  "description": "A simple blacksmith blog using Scribbish",
+  "version": "0.0.1",
+  "homepage": "https://github.com/flatiron/blacksmith",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flatiron/blacksmith-sites.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "http-server": "0.2.9"
+  },
+  "scripts": {
+    "start": "bin/server"
+  }
+}
